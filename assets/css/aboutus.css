@@ -1,0 +1,201 @@
+             /* ==========hero section============= */
+.hero-section{
+
+background-size: cover;
+font-size: var(--h2-font-size);
+margin-top:4.5rem;
+line-height: 11rem;
+text-align: center;
+clip-path: polygon(0 0, 100% 0, 100% 73%, 50% 100%, 49% 100%, 0 72%);
+}
+
+
+.hero-section .hero h1 a{
+color:#fff;      
+}
+.hero-section .hero h1 a:hover{
+color: hsl(var(--hue), 34%, 32%);
+}
+.hero-section .pp1{
+color:#fff;      
+}
+             /* ==========hero section============= */
+
+
+.about-01{
+    position: relative;
+    margin-bottom: 16rem;
+}
+
+.about-01__bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.about-01__shadow{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(180deg,hsla(0, 0%, 0%, 0) 60%,hsla(0, 0%, 0%) 78%);
+}
+
+.about-01__container{
+    position: relative;
+    padding-top: 5.5rem;
+    row-gap: 3rem;
+}
+
+.about-01__container .box{
+    width: 40rem;
+    padding: 4rem 2rem;
+    text-align: center;
+    justify-content: center;
+    margin-left: -11.5rem;
+    margin-top: -3rem;
+    margin-bottom: 1.5rem;
+    color: white;
+    border-radius: .3rem;
+    background-color: rgba(19, 19, 19, 0.445);
+    filter: drop-shadow(-10px -10px 5px #494949);
+}
+
+.about-01__container .box h3{
+    margin-top: -1rem;
+    margin-bottom: 1.5rem;
+    font-size: 2.1rem;
+}
+
+.about-01__container .box p{
+    font-size: .8rem;
+    line-height: 2;
+}
+
+.about-01__container .box .button{
+    background-color: var(--text-color);
+    margin-top: 1.5rem;
+    color: white;
+    margin-bottom: -1rem;
+    border-radius: .3rem;
+    background-color: hsl(var(--hue), 34%, 32%);
+}
+
+.about-01__container .box .button:hover{
+    background-color: whitesmoke;
+    color: hsl(var(--hue), 34%, 32%);
+}
+
+.about-01 .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 16.7rem);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 3.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-01 .grid .box-01{
+    background-color: hsla(0, 0%, 100%, .1);
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(.4rem);
+    border-radius: .5rem;
+}
+
+.about-01 .grid .box-01 h3{
+    margin-top: .7rem;
+    font-size: 1.3rem;
+}
+
+.about-01 .grid .box-01 p{
+    margin-top: .7rem;
+    line-height: 1.7;
+    color: white;
+    font-size: .8rem;
+
+}
+
+.about-01 .grid .box-01:hover{
+    background-color: rgb(54, 54, 54);
+}
+
+.reviews{
+    background: url('../imagee/23.png') no-repeat rgba(0,0,0,.9);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 55rem;
+    margin-top: -8rem;
+}
+
+.reviews .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17rem);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+.reviews .heading{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 3.3rem;
+    margin-bottom: 2rem;
+    margin-top: 8rem;
+}
+
+.reviews .grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 17rem);
+    align-items: flex-start;
+    justify-content: center;
+    gap: 1.5rem; 
+}
+
+.reviews .grid .box-02{
+    background-color: hsla(0, 0%, 100%, .1);
+    padding: 2rem;
+    text-align: center;
+    backdrop-filter: blur(.4rem);
+    border-radius: .5rem;
+}
+
+.reviews .grid .box-02 img{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 1rem;
+}
+
+.reviews .grid .box-02 h3{
+    font-size: 1rem;
+    color: var(--title-color);
+}
+
+.reviews .grid .box-02 p{
+    padding: 1rem 0;
+    line-height: 2;
+    color: white;
+    font-size: .6rem;
+}
+
+.reviews .grid .box-02 .stars{
+    margin-top: 1rem;
+}
+
+.reviews .grid .box-02 .stars i{
+    font-size: 1.3rem;
+    color: var(--title-color);
+}
+
+.reviews .grid .box-02:hover{
+    background-color: rgb(0, 0, 0);
+}
